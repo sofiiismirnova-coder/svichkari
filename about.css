@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2ede4;
+    color: #5d4037;
+}
+
+header {
+    background: #f2ede4;
+    padding: 15px 30px;
+
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+.button {
+    background: #a0522d;
+    color: #f8f6f0;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+nav {
+    background: #f2ede4;
+    border-top: 3px solid #3e2723;
+    border-bottom: 3px solid #3e2723;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    list-style: none;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5d4037;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+
+}
+
+.about {
+    padding: 40px 20px;
+    background: #f2ede4;
+    text-align: center;
+}
+
+.about h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: #3e2723;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.about-content ul {
+    text-align: left;
+    flex: 1;
+    list-style: disc;
+    padding-left: 20px;
+    
+}
+
+.about-content li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-content img {
+    width: 250px;
+    border: 3px solid #3e2723;
+    border-radius: 8px;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.catalog-btn {
+    margin-top: 30px;
+    background: #a0522d;
+    color: #f8f6f0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+footer {
+    background: #3e2723;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px; /* Додано відступи */
+}
+
+.media {
+    display: flex;
+    gap: 15px;
+}
+
+.media a {
+    text-decoration: none; /* Прибираємо підкреслення з посилань */
+}
+
+.media img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px; /* Заокруглені кути */
+}
+
+
+footer p {
+    margin: 0; /* Прибираємо зайві відступи */
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
